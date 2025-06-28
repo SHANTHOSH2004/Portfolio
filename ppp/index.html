@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shanthosh Kumar – Android Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar glass">
+    <div class="container">
+      <h1 class="logo">Portfolio</h1>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <canvas id="particles"></canvas>
+    <div class="hero-content" data-aos="zoom-in">
+      <img src="Img/photo.jpg" alt="Shanthosh Kumar" class="profile-pic" />
+      <h2>Hello, I'm</h2>
+      <h1>Shanthosh Kumar</h1>
+      <h3 class="typed-text"></h3>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+        <a href="#projects" class="btn btn-outline">My Work</a>
+        <a href="Img/sk_resume.pdf.pdf" class="btn btn-glass" download>Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        Motivated Android Developer with strong skills in Java and Kotlin, specializing in CameraX and Google ML Kit integrations.
+        Experienced in building scalable, performant apps with MVVM architecture in Agile teams. Passionate about clean code,
+        user-centric design, and continuous learning, actively pursuing Google Associate Android Developer certification. Seeking to
+        contribute to innovative mobile projects and grow as a software engineer      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+        <div class="skill-item"><i class="fas fa-code"></i> Kotlin</div>
+        <div class="skill-item"><i class="fab fa-android"></i> Android Studio, Jetpack, ViewBinding ,Jetpack Libraries (ViewModel, LiveData, Navigation),</div>
+        <div class="skill-item"><i class="fas fa-brain"></i> Google ML Kit</div>
+        <div class="skill-item"><i class="fas fa-network-wired"></i> Retrofit, REST APIs ,JSON Parsing</div>
+        <div class="skill-item"><i class="fas fa-database"></i> Room DB</div>
+        <div class="skill-item"><i class="fas fa-layer-group"></i> MVVM, Repository Pattern</div>
+        <div class="skill-item"><i class="fab fa-git-alt"></i> Git/GitHub, Postman, Firebase</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience" id="experience">
+    <div class="container" data-aos="fade-up">
+      <h2>Experience</h2>
+      <div class="card glass">
+        <h3>Android Developer Intern – Parts2Product</h3>
+        <span class="date">Nov 2024 –Dec 2024  | Chennai, India</span>
+        <ul>
+          <li>Contributed to three Android apps using Java and Kotlin, demonstrating proficiency in MVVM architecture, Room Database, CameraX, and Google ML Kit.</li>
+          <li>Improved app performance and user experience by optimizing camera features, implementing multithreading, and reducing load times by up to 50%.</li>
+          <li>Integrated Android APIs like Speech-to-Text, AlarmManager, and RESTful services (Weather, Maps), enhancing functionality and accessibility.</li>
+          <li>Designed modular, scalable codebases with reusable components, reducing duplication by 60% and increasing maintainability across projects.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="container" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card glass">
+          <h3>HealthApp (Android – Java)</h3>
+          <p>Developed a health tracking app with 10,000+ lines of code, enabling users to log metrics, set goals, and visualize data
+            with interactive charts.</p>
+          <p>Implemented Room Database with LiveData and ViewModel, reducing load times by 40% through efficient real-time
+            synchronization.</p>
+          <p>Integrated Android Speech-to-Text API for voice input, improving accessibility and user engagement.</p>
+          <p>Built a custom reminder and notification system using AlarmManager, increasing user retention by 25%.</p>
+
+        </div>
+        <div class="card glass">
+          <h3>Smart Vision App (Android – Kotlin, ML Kit)</h3>
+         <p>Engineered a multi-functional vision app featuring barcode scanning, face detection, text recognition, and image labeling
+          using Google ML Kit.</p>
+         <p>COptimized camera performance by 30% using CameraX over legacy APIs.</p>
+         <p>Reduced code duplication by 60% through modular architecture with an abstract BaseLensActivity class.</p>
+         <p>Achieved 95% accuracy in real-time text and barcode detection with ML Kit analyzers.</p>
+        </div>
+        <div class="card glass">
+          <h3>Smart Travel Companion (Android – Java)</h3>
+          <p>Built a feature-rich travel app integrating real-time weather updates, trip planning, and offline packing lists, serving 500+
+            users with a 4.5/5 average rating.</p>
+          <p>Reduced manual trip planning time by 40% by integrating RESTful APIs (Weather, Maps) and Room Database for
+            seamless access to forecasts and transport guides.</p>
+          <p>Enhanced user engagement by 30% through an intuitive Material Design UI using RecyclerView, Navigation
+            Components, and LiveData for smooth online/offline synchronization.</p>
+            <p>Optimized app performance with multithreading (AsyncTask/RxJava), reducing UI latency by 50% during heavy API and
+              database operations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education" id="education">
+    <div class="container" data-aos="fade-up">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Sc in Computer Science</strong>, VIT (GPA: 7.57)</li>
+        <li><strong>Higher Secondary</strong>, State Board (88%)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section certifications" id="certifications">
+    <div class="container" data-aos="fade-up">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Android App Development with Java – Udemy</li>
+      
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container" data-aos="fade-up">
+      <h2>Contact</h2>
+      <ul>
+        <li><i class="fas fa-envelope"></i> shanthoshkumar.dev@gmail.com</li>
+        <li><i class="fas fa-phone"></i> 8807498133</li>
+        <li><i class="fas fa-map-marker-alt"></i> Bangalore, India</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer glass">
+    <p>&copy; 2025 Shanthosh Kumar</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/shanthoshkumar03" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/SHANTHOSH2004" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="main.js"></script>
+</body>
+</html>
